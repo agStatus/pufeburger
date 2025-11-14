@@ -94,15 +94,41 @@ main .container .destaque .links a:nth-child(2){
 	font-size: 24px;
 	color: #D55D07;
 	text-align: center;
+	margin: 10px 0;
 }
 .popular ul li{
 	display: flex;
+	align-items: center;
+	margin: 15px 0;
 }
 .popular ul li .imagem-destaque{
 	width: 100%;
 }
 .popular ul li .imagem-destaque img{
 	width: 100%;
-	box-shadow:5px 5px 0px 5px #D55D07;
+	box-shadow:7px 7px 0px 2px #D55D07;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
- 	
+.popular ul li .descricao{
+	margin-left: 15px;
+}
+.popular ul li .descricao h3{
+	  color: #FFE53A;
+	  font-size: 24px;
+}
+.popular ul li .descricao p{
+	line-height: 22px;
+	margin: 10px 0;
+}
+.popular ul li .descricao a{
+	background: #D55D07;
+	color:#FFE53A;
+	padding: 7px 15px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.popular ul li .descricao a:hover{
+	background: #FFE53A;
+	color: #D55D07;
+}
